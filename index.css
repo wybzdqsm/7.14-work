@@ -1,0 +1,105 @@
+li{
+    list-style: none;
+}
+ul{
+    list-style: none;
+}
+a{
+    color:#000;
+}
+
+.shangpin-two{
+    padding: auto auto;
+    width: 484px;
+    height: 301px;
+    margin-left: 13px;
+    float: left;
+    display: block;
+    border-bottom: 15px solid #f5f5f5;
+    position: relative;
+    background-color: #f5f5f5;
+}
+.neirongtwo{
+     padding:0 20px;
+    width: 462px;
+    height: 282px;
+    margin: 10px;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,.09);
+    padding: 0;
+    background-color: #fff;
+}
+
+.two-title{
+    padding:0;
+    overflow: hidden;
+    background: #F1F1F1;
+}
+.two-title1{
+   
+    color:#fff;
+    background-color:#00B262;
+     float:left;
+     height:57px;
+     width:191px;
+     cursor: pointer;
+     line-height: 30px;
+     padding:0 20px;
+     text-align: center;
+     vertical-align: middle;
+}
+
+.two-title2{
+    margin-top: 16px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.two-content{
+    margin: 0;
+    padding: 0;
+}
+.two-content1{
+    width:462px;
+    height:225px;
+}
+.content11{
+    width:225px;
+    width:462px;
+    display:block;
+    color:#000;
+}
+.content12{
+        position: absolute;
+        top: 153px;
+        height: 87px;
+        width: 291px;
+        background-repeat: no-repeat;
+        background-position: 0 center;
+        background-color: rgba(0,0,0,0);
+        background-image: url(../tiammaolunbo/img/ct1.png);
+        z-index: 99;
+}
+.content13{
+        margin-left: 26px;
+        margin-top: 8px;
+        vertical-align: middle!important;
+}
+.content14{
+    margin-left: 8px;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #00B262;
+}
+.content15{
+    margin-left: 26px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.content16{
+    float: right;
+    margin-top: 10px;
+    margin-right: 30px;
+    width: 200px;
+    height: 200px;
+    z-index:1;
+}

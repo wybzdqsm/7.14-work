@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="shangpin-two">
+       <div class="neirongtwo">
+        <ul class="two-title">
+             <li class="two-title1" style="background-color:#00B262;color:#fff;">
+                <p class="two-title2">今日疯抢</p>
+             </li>
+             <li class="two-title1" style="background-color:#ccc;color:#000">
+                <p class="two-title2">量贩装</p>
+             </li>
+        </ul>
+        <div class="two-content">
+            <div class="two-content1">
+                <a href="javascript:;" class="content11">
+                    <div class="content12">
+                     <div class="content13">
+                         <img src="img/ct2.png" alt="" style="width:23px;height:23px;margin-top:-10px;z-index:1;">
+                         <span class="content14">零食欢乐购</span>
+                         <div>
+                             <span class="content15">爆款直降</span>
+                         </div>
+                     </div>
+                    </div>
+                    <img src="img/ct3.png" alt="" class="content16">
+                </a>
+            </div>
+            <div class="two-content1" style="display
+            :none">
+                <a href="javascript:;" class="content11">
+                    <div class="content12">
+                     <div class="content13">
+                         <img src="img/ct2.png" alt="" style="width:23px;height:23px;margin-top:-10px;z-index:1;">
+                         <span class="content14">爆降直款</span>
+                         <div>
+                             <span class="content15">粮油调味</span>
+                         </div>
+                     </div>
+                    </div>
+                    <img src="img/ct4.png" alt="" class="content16">
+                </a>
+            </div>
+
+        </div>
+       </div>
+    </div>
+
+    
+
+    <script>
+
+     var title=document.querySelectorAll(".two-title1")
+     var  content=document.querySelectorAll(".two-content1")
+       for(let i=0;i<title.length;i++){
+           title[i].onclick=function(){
+               for(var j=0;j<content.length;j++){
+             content[j].style.display="none";
+             title[j].style.background="#ccc";
+             title[j].style.color="#000";
+
+
+               }
+              content[i].style.display="block";
+              this.style.background="#00B262";
+              this.style.color="#fff";
+            }
+
+           }      
+           
+
+           
+           var title=document.querySelectorAll(".two-title1")
+     var  content=document.querySelectorAll(".two-content1")
+        
+           var flag=true;
+
+        //         setInterval(function(){
+        //             if(flag){
+        //         for(let i=0;i<title.length;i++){
+        //        for(var j=0;j<content.length;j++){
+        //        content[j].style.display="none";
+        //        title[j].style.background="#ccc";
+        //        title[j].style.color="#000";
+        //        }
+        //     content[i].style.display="block";
+        //       title[i].style.background="#00B262";
+        //       title[i].style.color="#fff";      
+            
+        //     }
+            
+        // }
+                 
+        //     },500)
+        setInterval(function(){
+            if(flag){
+                title[0].style.background="#00B262";
+                title[1].style.background="#ccc";
+                title[0].style.color="#fff";
+                title[1].style.color="#000"
+                content[0].style.display="block";
+                content[1].style.display="none";
+                flag=false;
+            }else{
+                title[1].style.background="#00B262";
+                title[0].style.background="#ccc";
+                title[1].style.color="#fff";
+                title[0].style.color="#000"
+                content[1].style.display="block";
+                content[0].style.display="none";
+                flag=true;
+            }
+        },4000);
+
+    
+      
+            
+       
+    </script>
+</body>
+</html>
